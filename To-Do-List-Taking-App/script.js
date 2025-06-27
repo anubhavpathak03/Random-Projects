@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
     
     hamburger.addEventListener('click', () => {
         sidebar.classList.toggle('open');
-        hamburger.classList.toggle('active'); // <-- yeh line add karein
+        hamburger.classList.toggle('active'); 
     });
     
     // Sidebar ke bahar click par close ho toh hamburger bhi normal ho
@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
             !hamburger.contains(e.target)
         ) {
             sidebar.classList.remove('open');
-            hamburger.classList.remove('active'); // <-- yeh line add karein
+            hamburger.classList.remove('active'); 
         }
     });
 
